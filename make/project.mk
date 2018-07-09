@@ -272,7 +272,7 @@ COMMON_WARNING_FLAGS = -Wall -Werror=all \
 	-Wno-error=unused-variable \
 	-Wno-error=deprecated-declarations \
 	-Wextra \
-	-Wno-unused-parameter -Wno-sign-compare
+	-Wno-unused-parameter -Wno-sign-compare \
 
 ifdef CONFIG_WARN_WRITE_STRINGS
 COMMON_WARNING_FLAGS += -Wwrite-strings
